@@ -4,9 +4,11 @@ import router from './router'
 import vueResource from 'vue-resource'
 import Header from './components/conponAll/Header.vue'
 import Footer from './components/conponAll/Footer.vue'
+import LoadBg from './components/conponAll/LoadBg.vue'
 
 Vue.component("my-footer",Footer)
 Vue.component("my-header",Header)
+Vue.component("my-loadBg",LoadBg)
 //引入element  ui包
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
