@@ -1,4 +1,5 @@
 <template>
+<!-- 加载页面前的loading动画 -->
     <div>
         <div class="loading_bg" v-show="bg_show">
             <img src="http://127.0.0.1:3000/img/preloader.gif" alt="">
